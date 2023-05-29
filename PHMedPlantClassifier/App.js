@@ -1,5 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import {Camera} from 'expo-camera';
+import {shareAsync} from 'expo-sharing';
+import * as MediaLibrary from 'expo-media-library';
 
 export default function App() {
   return (
